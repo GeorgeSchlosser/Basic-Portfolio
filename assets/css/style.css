@@ -152,17 +152,33 @@ ul {
 }
 
 form {
-    font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 #messageBox {
     width: 90%;
-    line-height: 300%;
+    line-height: 400%;
     padding: 12px 20px;
     /*margin: 8px 0;
     box-sizing: border-box;*/
+    margin-bottom: 1%;
+    
 }
 
 .nameEmail {
     width: 90%;
+    margin-bottom: 1%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: 0;
+    /*background: none;*/
+    box-shadow: none;
+    border-radius: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 10%;
 }
